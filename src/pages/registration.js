@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import "../components/registation.css";
+import "../components/registration.css";
 
 function Register()
 {
@@ -16,7 +16,7 @@ function Register()
         event.preventDefault();
     try
         {
-         await axios.post("http://localhost:8013/save", 
+         await axios.post("http://localhost:8010/save", 
         {
         id: id,
         fname: firstname,
